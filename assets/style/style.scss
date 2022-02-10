@@ -2,6 +2,7 @@
 
 // Components
 @import "./components/header.scss";
+@import "./components/responsibilities.scss";
 
 * {
     margin: 0;
@@ -13,8 +14,21 @@
     text-decoration: none;
 }
 
+section {
+    margin: 50px 0;
+}
+
 .container {
     width: 100%;
     max-width: 1260px;
     margin: 0 auto;
+}
+
+h2 {
+    color: $black;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 59px;
+    text-align: center;
+    margin-bottom: 35px;
 }

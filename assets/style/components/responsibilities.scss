@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+.responsibilities__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .responsibilities__item {
+        width: 23%;
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 15px;
+        }
+
+        span {
+            font-size: 18px;
+            color: $black;
+        }
+    }
+}

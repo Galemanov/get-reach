@@ -38,6 +38,37 @@ header nav ul a:hover {
   color: #ff9887;
 }
 
+.responsibilities__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.responsibilities__inner .responsibilities__item {
+  width: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.responsibilities__inner .responsibilities__item img {
+  margin-right: 15px;
+}
+
+.responsibilities__inner .responsibilities__item span {
+  font-size: 18px;
+  color: #000000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,9 +80,22 @@ header nav ul a:hover {
   text-decoration: none;
 }
 
+section {
+  margin: 50px 0;
+}
+
 .container {
   width: 100%;
   max-width: 1260px;
   margin: 0 auto;
+}
+
+h2 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 59px;
+  text-align: center;
+  margin-bottom: 35px;
 }
 /*# sourceMappingURL=style.css.map */
