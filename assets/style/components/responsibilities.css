@@ -28,4 +28,15 @@
   font-size: 18px;
   color: #000000;
 }
+
+.responsibilities__btn,
+.responsibilities__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0;
+}
 /*# sourceMappingURL=responsibilities.css.map */

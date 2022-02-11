@@ -3,6 +3,7 @@
 // Components
 @import "./components/header.scss";
 @import "./components/responsibilities.scss";
+@import "./components/button.scss";
 
 * {
     margin: 0;
@@ -15,7 +16,7 @@
 }
 
 section {
-    margin: 50px 0;
+    margin: 80px 0;
 }
 
 .container {
@@ -30,5 +31,5 @@ h2 {
     font-size: 58px;
     line-height: 59px;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
