@@ -1,0 +1,30 @@
+.result__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.result__inner .result__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 11%;
+}
+
+.result__inner .result__item span {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=result.css.map */

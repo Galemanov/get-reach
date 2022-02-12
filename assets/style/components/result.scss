@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+.result__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .result__item {
+        display: flex;
+        flex-direction: column;
+        width: 11%;
+
+        span {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    }
+}
