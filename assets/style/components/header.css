@@ -1,5 +1,10 @@
 header {
   height: 85px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1000;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
 }
