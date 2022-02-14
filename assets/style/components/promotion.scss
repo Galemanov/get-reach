@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.promotion__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .promotion__item {
+        width: 32%;
+        margin: 25px 0;
+
+        img {
+            margin-bottom: 10px;
+        }
+
+        div {
+            font-size: 25px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        span {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+}
