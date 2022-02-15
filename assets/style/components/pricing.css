@@ -1,0 +1,83 @@
+.pricing__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.pricing__inner .pricing__item {
+  background: #fff3f1;
+  border-radius: 93px 0px;
+  width: 30%;
+  padding: 43px 45px;
+}
+
+.pricing__inner .pricing__item .pricing__title {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+  margin: 7px 0;
+}
+
+.pricing__inner .pricing__item .pricing__group div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.pricing__inner .pricing__item button {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.individual__package {
+  background: url("/assets/img/individual__package.png") center no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.individual__package .individual__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  padding: 71px 0;
+}
+
+.individual__package .individual__item div {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.individual__package .individual__item span {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  margin: 15px 0;
+}
+/*# sourceMappingURL=pricing.css.map */
