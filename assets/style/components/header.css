@@ -1,45 +1,30 @@
 header {
   height: 85px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: #ffffff;
   z-index: 1000;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
 }
-
 header nav {
   padding-top: 10px;
 }
-
 header nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 header nav ul .header__logo {
   cursor: pointer;
 }
-
 header nav ul a {
   color: #000000;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 29px;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-
 header nav ul a:hover {
   color: #ff9887;
-}
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */

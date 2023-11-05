@@ -1,29 +1,16 @@
 .responsibilities__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .responsibilities__inner .responsibilities__item {
   width: 23%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .responsibilities__inner .responsibilities__item img {
   margin-right: 15px;
 }
-
 .responsibilities__inner .responsibilities__item span {
   font-size: 18px;
   color: #000000;
@@ -31,12 +18,7 @@
 
 .responsibilities__btn,
 .responsibilities__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 50px 0;
-}
-/*# sourceMappingURL=responsibilities.css.map */
+}/*# sourceMappingURL=responsibilities.css.map */
