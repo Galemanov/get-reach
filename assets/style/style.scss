@@ -11,6 +11,7 @@
 @import "./components/reach.scss";
 @import "./components/pricing.scss";
 @import "./components/footer.scss";
+@import "./components/login.css";
 
 * {
   margin: 0;
@@ -39,4 +40,8 @@ h2 {
   line-height: 59px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+a {
+  color: $white;
 }

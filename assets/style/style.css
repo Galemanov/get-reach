@@ -1,3 +1,4 @@
+@import "./components/login.css";
 header {
   height: 85px;
   position: sticky;
@@ -278,4 +279,8 @@ h2 {
   line-height: 59px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+a {
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
