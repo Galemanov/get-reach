@@ -1,6 +1,25 @@
 @import "./variables.scss";
 
-.login__inner {
-  display: flex;
-  justify-content: center;
+.login {
+  &__inner {
+    background: $white;
+    display: flex;
+    align-items: center;
+    padding: 35px 25px;
+    border-radius: 80px 0;
+    gap: 37px;
+  }
+
+  &__item {
+  }
+
+  &__img {
+    margin-right: 37px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }

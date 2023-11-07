@@ -12,6 +12,7 @@
 @import "./components/pricing.scss";
 @import "./components/footer.scss";
 @import "./components/login.css";
+@import "./components/input.scss";
 
 * {
   margin: 0;
@@ -21,6 +22,10 @@
   outline: none;
   box-sizing: border-box;
   text-decoration: none;
+}
+
+.body {
+  background-color: $lightGrey;
 }
 
 section {

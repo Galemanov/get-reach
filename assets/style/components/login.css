@@ -1,4 +1,16 @@
 .login__inner {
+  background: #ffffff;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  padding: 35px 25px;
+  border-radius: 80px 0;
+  gap: 37px;
+}
+.login__img {
+  margin-right: 37px;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }/*# sourceMappingURL=login.css.map */

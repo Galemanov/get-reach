@@ -4,11 +4,10 @@
   background: $lightOrange;
   padding: 15px 0 25px 0;
   border-radius: 80px 0;
-}
-
-.footer__inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 55px;
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+  }
 }
