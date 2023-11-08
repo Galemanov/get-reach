@@ -1,1 +1,7 @@
-/*# sourceMappingURL=input.css.map */
+input {
+  padding: 30px 0 26px 54px;
+  border-radius: 45px 0px;
+  border: none;
+  background: #fff3f1;
+  font-size: 25px;
+}/*# sourceMappingURL=input.css.map */
